@@ -26,8 +26,7 @@ function App() {
 		<div className="App">
 			{/* Ensure to import the scroll-to-top component to the App.js file */}
 			<ScrollToTop />
-			<div className="section section1" style={{ backgroundImage: "url(/logo.jpeg)" }}>
-				
+			<div className="section section1" style={{  }}>
 				<div className="link btn" onClick={scrollToBottom}>
 					Scroll to bottom <MdArrowDropDownCircle />
 				</div>
