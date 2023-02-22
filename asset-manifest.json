@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/static-grace.github.io/static/css/main.aa94827e.css",
+    "main.js": "/static-grace.github.io/static/js/main.80507bec.js",
+    "index.html": "/static-grace.github.io/index.html",
+    "main.aa94827e.css.map": "/static-grace.github.io/static/css/main.aa94827e.css.map",
+    "main.80507bec.js.map": "/static-grace.github.io/static/js/main.80507bec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa94827e.css",
+    "static/js/main.80507bec.js"
+  ]
+}
