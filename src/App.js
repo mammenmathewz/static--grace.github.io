@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import ScrollToTop from './ScrollToTop';
 import { MdArrowDropDownCircle } from 'react-icons/md';
 
+
 function App() {
 	const aboutSection = useRef(null);
 	const servcesSection = useRef(null);
@@ -27,6 +28,7 @@ function App() {
 			{/* Ensure to import the scroll-to-top component to the App.js file */}
 			<ScrollToTop />
 			<div className="section section1" style={{  }}>
+				
 				<div className="link btn" onClick={scrollToBottom}>
 					Scroll to bottom <MdArrowDropDownCircle />
 				</div>
@@ -36,6 +38,14 @@ function App() {
 					</li>
 					<li className="link" onClick={() => scrollDown(servcesSection)}>
 						Products
+						 
+							
+				
+
+
+
+
+
 					</li>
 					<li className="link" onClick={() => scrollDown(contactSection)}>
 						Contact Us
@@ -52,7 +62,7 @@ function App() {
 			<div className="section section4" ref={contactSection}>
 				<h2>Contact Us</h2>
 			</div>
-			<div className="section section5"></div>
+			
 		</div>
 	);
 }
