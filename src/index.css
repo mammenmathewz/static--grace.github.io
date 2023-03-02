@@ -43,7 +43,7 @@ body {
   background-color: rgb(255, 255, 255);
 }
 .section4{
-  background-color: rgb(255, 255, 255);
+  background-color: #4A4F54;
 }
 .section5{
   background-color: rgb(10, 233, 36);
@@ -76,8 +76,8 @@ li{
   font-weight: 500;
   transition: all .5s ease-in-out;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 150%;
-  font-weight: 500;
+  font-size: 130%;
+  font-weight: 250;
   
 }
 
